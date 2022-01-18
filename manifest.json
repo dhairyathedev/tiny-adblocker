@@ -10,6 +10,7 @@
         "128": "icons/logo.png"
     },
     "browser_action": {
+        "default_icon": "icons/logo.png",
         "default_popup": "popup.html"
     },
     "manifest_version": 2
