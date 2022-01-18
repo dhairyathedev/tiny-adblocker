@@ -1,0 +1,16 @@
+{
+    "name": "Tiny Adblocker",
+    "version": "1.0",
+    "description": "Adblocker which can block advertisements and tracking on any website",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "icons/logo.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
